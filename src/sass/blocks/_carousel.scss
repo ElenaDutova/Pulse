@@ -23,11 +23,15 @@
     }
     .slick-dots {
         li {
+            list-style-type: none;
             button {
                 background-color: rgba(0, 0, 0, 0.5);
                 border-radius: 100%;
                 width: 10px;
                 height: 10px;
+                &:before {
+                    content: none;
+                }
             }
         }
 
