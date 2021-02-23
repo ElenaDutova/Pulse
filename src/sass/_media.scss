@@ -272,4 +272,24 @@
             width: 300px;
         }
     }
+    .modal {
+        width: 300px;
+        min-height: 320px;
+        padding: 25px 15px 15px 15px;
+        &__close {
+            display: none;
+        }
+        &__subtitle {
+            font-size: 16.5px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+        &_mini {
+            min-height: 140px;
+        }
+    }
+    .feed-form {
+        width: 260px;
+    }
 }
