@@ -273,11 +273,12 @@
         }
     }
     .modal {
-        width: 300px;
+        width: 280px;
         min-height: 320px;
         padding: 25px 15px 15px 15px;
         &__close {
-            display: none;
+            right:-20px;
+            font-size: 31px;
         }
         &__subtitle {
             font-size: 16.5px;
